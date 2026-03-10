@@ -15,7 +15,7 @@
 
 ## Projects
 
-**Medical Data Extraction**
+<h2>Medical Data Extraction</h2>
 [View Project](#) | [GitHub](https://github.com/shafiimran)
 
 Medical institutions upload thousands of patient prescriptions to the database manually. Automating this process can significantly enhance worker efficiency. Built this program using **Python** and **Pytesseract** that takes an image of a prescription and extracts the required fields such as patient details, prescription, etc. This automation completes tasks within **4–5 seconds** whereas a worker takes **2–3 minutes** to manually extract the same info.

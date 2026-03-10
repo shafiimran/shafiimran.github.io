@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shafi Imran – Software Developer Portfolio" />
+  <title>Shafi Imran | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ======== NAVIGATION ======== -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav__logo">Shafi<span>.</span></a>
+
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#home"   class="nav__link">Home</a></li>
+        <li><a href="#about"  class="nav__link">About</a></li>
+        <li><a href="#skills" class="nav__link">Skills</a></li>
+        <li><a href="#projects" class="nav__link">Projects</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+      </ul>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ======== HERO ======== -->
+    <section class="hero section" id="home">
+      <div class="hero__content container">
+        <p class="hero__greeting">Hi, I'm</p>
+        <h1 class="hero__name">Shafi Imran</h1>
+        <h2 class="hero__title">Software Developer</h2>
+        <p class="hero__subtitle">
+          I build clean, efficient, and user-friendly web applications.<br />
+          Passionate about turning ideas into reality through code.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--primary">View My Work</a>
+          <a href="#contact"  class="btn btn--outline">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero__blob" aria-hidden="true"></div>
+    </section>
+
+    <!-- ======== ABOUT ======== -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section__title">About Me</h2>
+        <div class="about__grid">
+          <div class="about__avatar-wrap">
+            <div class="about__avatar" aria-label="Profile illustration">SI</div>
+          </div>
+          <div class="about__text">
+            <p>
+              I'm a software developer who loves crafting elegant solutions to complex
+              problems. With a strong foundation in both front-end and back-end
+              technologies, I enjoy building products that make a real difference.
+            </p>
+            <p>
+              When I'm not coding, you can find me exploring new technologies,
+              contributing to open-source projects, or learning something new.
+            </p>
+            <div class="about__info">
+              <div class="about__info-item">
+                <span class="about__info-label">Location</span>
+                <span class="about__info-value">Available Remotely</span>
+              </div>
+              <div class="about__info-item">
+                <span class="about__info-label">Email</span>
+                <span class="about__info-value">
+                  <a href="mailto:shafiimran@github.com">shafiimran@github.com</a>
+                </span>
+              </div>
+              <div class="about__info-item">
+                <span class="about__info-label">GitHub</span>
+                <span class="about__info-value">
+                  <a href="https://github.com/shafiimran" target="_blank" rel="noopener noreferrer">@shafiimran</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== SKILLS ======== -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills__grid">
+
+          <div class="skills__category">
+            <h3 class="skills__category-title">Frontend</h3>
+            <div class="skills__list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">TypeScript</span>
+            </div>
+          </div>
+
+          <div class="skills__category">
+            <h3 class="skills__category-title">Backend</h3>
+            <div class="skills__list">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">REST APIs</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="skills__category">
+            <h3 class="skills__category-title">Tools &amp; DevOps</h3>
+            <div class="skills__list">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Docker</span>
+              <span class="skill-tag">Linux</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== PROJECTS ======== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__icon" aria-hidden="true">🌐</span>
+              <div class="project-card__links">
+                <a href="https://github.com/shafiimran" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-card__title">Portfolio Website</h3>
+            <p class="project-card__desc">
+              A personal portfolio site built with HTML, CSS, and JavaScript.
+              Responsive design with smooth animations and a clean layout.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__icon" aria-hidden="true">🚀</span>
+              <div class="project-card__links">
+                <a href="https://github.com/shafiimran" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-card__title">Web Application</h3>
+            <p class="project-card__desc">
+              A full-stack web application with user authentication,
+              RESTful API, and a modern React frontend.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MongoDB</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__header">
+              <span class="project-card__icon" aria-hidden="true">🛠️</span>
+              <div class="project-card__links">
+                <a href="https://github.com/shafiimran" target="_blank" rel="noopener noreferrer" aria-label="View on GitHub">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+              </div>
+            </div>
+            <h3 class="project-card__title">CLI Tool</h3>
+            <p class="project-card__desc">
+              A command-line utility that automates repetitive developer tasks,
+              written in Python with a clean argument-parsing interface.
+            </p>
+            <div class="project-card__tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">CLI</span>
+              <span class="project-tag">Automation</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======== CONTACT ======== -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <h2 class="section__title">Get In Touch</h2>
+        <p class="contact__subtitle">
+          Have a project in mind or just want to say hello? Feel free to reach out!
+        </p>
+        <form class="contact__form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+          </div>
+          <p class="contact__note">
+            Note: This form uses your default mail client to send messages.
+          </p>
+          <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>&copy; <span id="year"></span> Shafi Imran. All rights reserved.</p>
+      <div class="footer__social">
+        <a href="https://github.com/shafiimran" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

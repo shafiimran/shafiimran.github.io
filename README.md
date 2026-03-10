@@ -53,7 +53,7 @@ AtliQ Hardware, a PC hardware manufacturer, needed data-driven insights to optim
 ![AtliQ Hardware Ad-Hoc Analysis](assets/img/project-sql.jpg)
 
 ## Certificates
-* Supervised Machine Learning: Regression and Classification | Stanford Online - [Link](#)
+* Supervised Machine Learning: Regression and Classification | Stanford Online - [Link](https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49)
 * Data Analytics Bootcamp | Codebasics - [Link](#)
 * Mathematics for Machine Learning and Data Science | Coursera - [Link](#)
 * Python: Beginner to Advanced For Data Professionals | Codebasics - [Link](#)

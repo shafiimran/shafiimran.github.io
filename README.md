@@ -32,9 +32,9 @@ There are times when we struggle to recall where we spent our money. A tracking 
 **Business Insights 360**
 [View Project](#)
 
-An interactive dashboard for Atliq Hardware using **Power BI** that helps stakeholders make data-driven business decisions.
-Dashboard includes 5 different views — Finance, Sales, Marketing, Supply Chain, and Executive — each specialized for different sectors. Connected with the company's database containing over **1.8 million sales records**.
-This enabled Atliq Hardware to analyze department sales trends driving a projected **10% revenue acceleration** and a **20% reduction** in data-related expenses.
+* An interactive dashboard for Atliq Hardware using **Power BI** that helps stakeholders make data-driven business decisions.
+* Dashboard includes 5 different views — Finance, Sales, Marketing, Supply Chain, and Executive — each specialized for different sectors. Connected with the company's database containing over **1.8 million sales records**.
+* This enabled Atliq Hardware to analyze department sales trends driving a projected **10% revenue acceleration** and a **20% reduction** in data-related expenses.
 
 ![Business Insights 360](assets/img/project-powerbi.png)
 

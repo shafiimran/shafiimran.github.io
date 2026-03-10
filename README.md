@@ -2,7 +2,7 @@
 
 #### Data Aspirant | Business & Technology Undergrad
 
-📞 (+880) 1315255802  | 📧 shafiimran27@gmail.com | [LinkedIn](https://www.linkedin.com/in/shafiimran) | [GitHub](https://github.com/shafiimran) | [Portfolio](https://shafiimran.github.io)
+📞 (+880) 1315255802  | 📧 shafiimran27@gmail.com | [LinkedIn](https://www.linkedin.com/in/shafiimran) | [GitHub](https://github.com/shafiimran) | 
 
 ## Education
 - B.Sc., Business & Technology Management | Islamic University of Technology (IUT), Gazipur, Bangladesh (_Expected Sept 2026_)

@@ -9,56 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+[Download CV](https://shafiimran.github.io/files/cv_shafi_imran.pdf){: .btn}
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**B.Sc., Business & Technology Management**
+Islamic University of Technology (IUT), Gazipur, Bangladesh
+*(Expected Sept 2026)*
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Technologies
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+**Programming Languages:** Python, SQL
+
+**Analytical Tools:** Power BI, Excel
+
+**Databases:** MySQL, PostgreSQL
+
+**Libraries & Frameworks:** Scikit-Learn, TensorFlow, Pandas, NumPy, Matplotlib, FastAPI, Streamlit
+
+## Certificates
+
+- Supervised Machine Learning: Regression and Classification \| Stanford Online — [Link](https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49)
+- Advanced Learning Algorithms \| Stanford Online — [Link](https://coursera.org/share/bde17396f4c8b225b86479d7934b530e)
+- Data Analytics Bootcamp \| Codebasics — [Link](https://codebasics.io/certificate/CB-BT-1-449152)
+- Mathematics for Machine Learning and Data Science \| Coursera — [Link](https://coursera.org/share/385f9036a00bfad500f828c0985ebafe)
+- Python: Beginner to Advanced For Data Professionals \| Codebasics — [Link](https://codebasics.io/certificate/CB-48-449152)
+- SQL Beginner to Advanced For Data Professionals \| Codebasics — [Link](https://codebasics.io/certificate/CB-50-449152)
+- Get Job Ready: Power BI Data Analytics \| Codebasics — [Link](https://codebasics.io/certificate/CB-49-449152)
+
+## Other Activities
+
+- Solving data related problems on DataLemur and HackerRank
+- Books read — *"Storytelling with Data"* by Cole Nussbaumer Knaflic

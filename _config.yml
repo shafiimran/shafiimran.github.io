@@ -23,7 +23,7 @@ repository               : "shafiimran/shafiimran.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/profile-circle.png"
+  avatar           : "profile-circle.png"
   name             : *name
   pronouns         : # example: "she/her"  
   bio              : "Aspiring Data Scientist"

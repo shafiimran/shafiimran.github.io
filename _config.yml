@@ -24,7 +24,7 @@ repository               : "shafiimran/shafiimran.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : *name
   pronouns         : # example: "she/her"  
   bio              : "Aspiring Data Scientist"
   location         : "Dhaka, Bangladesh"
@@ -59,7 +59,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username

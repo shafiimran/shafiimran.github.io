@@ -7,9 +7,12 @@ author_profile: true
 ---
 
 ## 🛡️Health Insurance Premium Predictor
-**Tools:** Python · Scikit-learn · Pandas · Matplotlib · Streamit  &nbsp;|&nbsp; Dec 2024
+**Tools:** Python · Scikit-learn · Pandas · Matplotlib · Streamit  &nbsp;|&nbsp; Mar 2025
 
-Medical institutions upload thousands of patient prescriptions manually. This project automates that process to significantly enhance worker efficiency. Built using Python & Pytesseract — takes a prescription image and extracts required fields such as patient details, prescription, etc. Automation completes tasks in **4–5 seconds** vs **2–3 minutes** manually.
+• Worked on a 50,000-row, 14-feature health insurance dataset to predict annual premium amounts and deploy a live ML web application
+• Built a complete ML pipeline covering EDA, data cleaning, feature engineering, model training, error analysis, and deployment
+• conducted error analysis revealing poor performance (R² = 0.60) for applicants aged under 25. Applied model segmentation (Linear Regression for under 25, XGBoost for 25+), added ‘genetical risk’ feature boosting R² from 0.60 to 0.988, and deployed full preprocessing pipeline on Streamlit Community Cloud
+• live at - [Streamlit Frontend](ml-health-insurance-predict.streamlit.app)
 
 [View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/ml_health_insurance_predictor){: .btn}
 
@@ -18,10 +21,7 @@ Medical institutions upload thousands of patient prescriptions manually. This pr
 ## 🐍 Medical Data Extraction
 **Tools:** Python · Pytesseract · RegEx &nbsp;|&nbsp; Dec 2024
 
-• Worked on a 50,000-row, 14-feature health insurance dataset to predict annual premium amounts and deploy a live ML web application
-• Built a complete ML pipeline covering EDA, data cleaning, feature engineering, model training, error analysis, and deployment
-• conducted error analysis revealing poor performance (R² = 0.60) for applicants aged under 25. Applied model segmentation (Linear Regression for under 25, XGBoost for 25+), added ‘genetical risk’ feature boosting R² from 0.60 to 0.988, and deployed full preprocessing pipeline on Streamlit Community Cloud
-• live at - [Streamlit Frontend](ml-health-insurance-predict.streamlit.app)
+Medical institutions upload thousands of patient prescriptions manually. This project automates that process to significantly enhance worker efficiency. Built using Python & Pytesseract — takes a prescription image and extracts required fields such as patient details, prescription, etc. Automation completes tasks in **4–5 seconds** vs **2–3 minutes** manually.
 
 [View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran){: .btn}
 

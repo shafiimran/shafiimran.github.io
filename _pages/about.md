@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Shafi Imran | Portfolio"
+title: "Shafi Imran"
 author_profile: true
 redirect_from:
   - /about/

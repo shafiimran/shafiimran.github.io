@@ -10,7 +10,7 @@
 
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Shafi Imran"
+title                    : "Portfolio"
 title_separator          : "-"
 name                     : &name "Shafi Imran"
 description              : &description "Data Aspirant"   # Update this with a general description of your site, this is the default if not overridden by a page

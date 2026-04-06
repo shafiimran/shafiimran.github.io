@@ -12,9 +12,9 @@ author_profile: true
 • Worked on a 50,000-row, 14-feature health insurance dataset to predict annual premium amounts and deploy a live ML web application
 • Built a complete ML pipeline covering EDA, data cleaning, feature engineering, model training, error analysis, and deployment
 • conducted error analysis revealing poor performance (R² = 0.60) for applicants aged under 25. Applied model segmentation (Linear Regression for under 25, XGBoost for 25+), added ‘genetical risk’ feature boosting R² from 0.60 to 0.988, and deployed full preprocessing pipeline on Streamlit Community Cloud
-• live at - [Streamlit Frontend](https://ml-health-insurance-predict.streamlit.app/)
+• live at - [Streamlit Frontend](https://ml-health-insurance-predict.streamlit.app/){: target="_blank" rel="noopener noreferrer" }
 
-[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/ml_health_insurance_predictor){: .btn}
+[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/ml_health_insurance_predictor){: .btn target="_blank" rel="noopener noreferrer" }
 
 ---
 
@@ -23,7 +23,7 @@ author_profile: true
 
 Medical institutions upload thousands of patient prescriptions manually. This project automates that process to significantly enhance worker efficiency. Built using Python & Pytesseract — takes a prescription image and extracts required fields such as patient details, prescription, etc. Automation completes tasks in **4–5 seconds** vs **2–3 minutes** manually.
 
-[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran){: .btn}
+[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran){: .btn target="_blank" rel="noopener noreferrer" }
 
 ---
 
@@ -32,7 +32,7 @@ Medical institutions upload thousands of patient prescriptions manually. This pr
 
 A tracking system that helps users manage expenses and savings. Developed an analytics frontend where users can store/update expenses and generate analytics by **month** and **expense category**. Enables users to improve savings by **10–15%**.
 
-[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/expense_tracking_system){: .btn}
+[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/expense_tracking_system){: .btn target="_blank" rel="noopener noreferrer" }
 
 ---
 
@@ -50,7 +50,7 @@ An interactive dashboard for Atliq Hardware helping stakeholders make data-drive
 
 Turns raw AtliQ Hardware sales data into actionable insights. Built customer and market performance reports and P&L statements by market and fiscal year using Power Query data modeling.
 
-[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/excel_sales_analytics){: .btn}
+[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/excel_sales_analytics){: .btn target="_blank" rel="noopener noreferrer" }
 
 ---
 
@@ -59,4 +59,4 @@ Turns raw AtliQ Hardware sales data into actionable insights. Built customer and
 
 Analyzed **1.9M+ sales records** to optimize AtliQ Hardware's sales and customer relationships globally. Delivered Top 10 Customers by Market Share and Croma Total Gross Sales by Fiscal Year reports.
 
-[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/atliq_ad_hoc){: .btn}
+[View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/atliq_ad_hoc){: .btn target="_blank" rel="noopener noreferrer" }

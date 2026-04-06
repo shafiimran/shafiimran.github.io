@@ -9,6 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-
+[Download CV](https://shafiimran.github.io/files/cv_shafi_imran.pdf){: .btn}
 
 

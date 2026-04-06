@@ -95,8 +95,11 @@
 
 .author__cv .btn {
   width: auto;
-  padding: 0.3rem 3rem;
+  padding: 0.4rem 1.2rem;
   font-size: 1.5rem;
   display: inline-block;
 }
 
+li.author__desktop:first-of-type {
+  margin-top: 1.5rem !important;
+}

@@ -13,14 +13,6 @@
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"  fetchpriority="high" />
     {% endif %}
   </div>
-<div class="author__cv">
-  <a href="/files/cv_shafi_imran.pdf" 
-     class="btn btn--light-outline" 
-     target="_blank" 
-     rel="noopener">
-     📄 Download CV
-  </a>
-</div>
 
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
@@ -181,4 +173,13 @@
       {% endif %}      
     </ul>
   </div>
+  
+  <div class="author__cv">
+  <a href="/files/cv_shafi_imran.pdf" 
+     class="btn btn--light-outline" 
+     target="_blank" 
+     rel="noopener">
+     📄 Download CV
+  </a>
+</div>
 </div>

@@ -12,7 +12,7 @@ author_profile: true
 • Worked on a 50,000-row, 14-feature health insurance dataset to predict annual premium amounts and deploy a live ML web application
 • Built a complete ML pipeline covering EDA, data cleaning, feature engineering, model training, error analysis, and deployment
 • conducted error analysis revealing poor performance (R² = 0.60) for applicants aged under 25. Applied model segmentation (Linear Regression for under 25, XGBoost for 25+), added ‘genetical risk’ feature boosting R² from 0.60 to 0.988, and deployed full preprocessing pipeline on Streamlit Community Cloud
-• live at - [Streamlit Frontend](ml-health-insurance-predict.streamlit.app)
+• live at - [Streamlit Frontend](https://ml-health-insurance-predict.streamlit.app/)
 
 [View Project](#){: .btn} &nbsp; [GitHub](https://github.com/shafiimran/ml_health_insurance_predictor){: .btn}
 

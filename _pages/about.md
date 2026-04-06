@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm an aspiring **Data Analyst** with a passion for turning numbers into insights. As a **Business and Technology undergrad** at Islamic University of Technology, I have knowledge from both the business & tech world — where I enjoy solving problems and uncovering trends.
+I'm an aspiring **Data Scientist** with a passion for turning numbers into insights. As a **Business and Technology undergrad** at Islamic University of Technology, I have knowledge from both the business & tech world — where I enjoy solving problems and uncovering trends.
 
 Currently learning **Data Science & ML**, which will help me not only analyze data but also identify hidden patterns and future trends within data.
 

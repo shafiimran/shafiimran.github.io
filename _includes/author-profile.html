@@ -14,6 +14,10 @@
     {% endif %}
   </div>
 
+  {% if page.permalink == "/cv/" %}
+    <p><a href="{{ '/files/cv_shafi_imran.pdf' | prepend: base_path }}" class="btn" target="_blank" rel="noopener noreferrer">Download CV</a></p>
+  {% endif %}
+
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}

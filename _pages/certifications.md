@@ -49,7 +49,7 @@ author_profile: true
 <div class="cert-grid">
 
   <div class="cert-card">
-    <a href="https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49" target="_blank">
+    <a href="https://coursera.org/share/6b5ae1e85ca04deb69f5560220e3d46f" target="_blank">
       <img src="../images/certs/cert_ml.png" alt="Machine Learning Specialization"/>
       <div class="cert-label">Machine Learning Specialization</div>
     </a>
@@ -64,14 +64,14 @@ author_profile: true
   </div>
 
   <div class="cert-card">
-    <a href="https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49" target="_blank">
+    <a href="https://coursera.org/share/bde17396f4c8b225b86479d7934b530e" target="_blank">
       <img src="../images/certs/cert_advanced.jpeg" alt="Advanced Learning Algorithms"/>
       <div class="cert-label">Advanced Learning Algorithms</div>
     </a>
   </div>
 
   <div class="cert-card">
-    <a href="https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49" target="_blank">
+    <a href="https://coursera.org/share/173d2a4674214f5131e3437fbc5016db" target="_blank">
       <img src="../images/certs/cert_unsupervised.jpeg" alt="Unsupervised Learning, Recommenders, Reinforcement Learning"/>
       <div class="cert-label">Unsupervised Learning, Recommenders, Reinforcement Learning</div>
     </a>

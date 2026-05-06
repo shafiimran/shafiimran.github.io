@@ -50,10 +50,33 @@ author_profile: true
 
   <div class="cert-card">
     <a href="https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49" target="_blank">
+      <img src="../images/certs/cert_ml.png" alt="Machine Learning Specialization"/>
+      <div class="cert-label">Machine Learning Specialization</div>
+    </a>
+  </div>
+
+
+  <div class="cert-card">
+    <a href="https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49" target="_blank">
       <img src="../images/certs/cert-supervised.jpeg" alt="Supervised Machine Learning"/>
       <div class="cert-label">Supervised Machine Learning</div>
     </a>
   </div>
+
+  <div class="cert-card">
+    <a href="https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49" target="_blank">
+      <img src="../images/certs/cert_advanced.jpeg" alt="Advanced Learning Algorithms"/>
+      <div class="cert-label">Advanced Learning Algorithms</div>
+    </a>
+  </div>
+
+  <div class="cert-card">
+    <a href="https://coursera.org/share/3089cd8ba9e5749c51050064351c5e49" target="_blank">
+      <img src="../images/certs/cert_unsupervised.jpeg" alt="Unsupervised Learning, Recommenders, Reinforcement Learning"/>
+      <div class="cert-label">Unsupervised Learning, Recommenders, Reinforcement Learning</div>
+    </a>
+  </div>
+
 
   <div class="cert-card">
     <a href="https://codebasics.io/certificate/CB-BT-1-449152" target="_blank">

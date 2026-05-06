@@ -80,7 +80,7 @@ author_profile: true
 
   <div class="cert-card">
     <a href="https://codebasics.io/certificate/CB-BT-1-449152" target="_blank">
-      <img src="../images/certs/cert-bootcamp.jpeg" alt="Data Analytics Bootcamp"/>
+      <img src="../images/certs/cert_bootcamp.png" alt="Data Analytics Bootcamp"/>
       <div class="cert-label">Data Analytics Bootcamp</div>
     </a>
   </div>

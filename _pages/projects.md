@@ -14,7 +14,8 @@ author_profile: true
 Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**, merging customer, loan, and credit bureau data to predict the probability of loan default — a core problem in retail banking and lending.
 
 
-[🔗View Project](https://ml-credit-risk-predict.streamlit.app/){: .btn target="_blank" rel="noopener noreferrer" style="text-decoration: none} &nbsp; [📁GitHub](https://github.com/shafiimran/ml_credit_risk_predictor){: .btn target="_blank" rel="noopener noreferrer" }
+
+[🔗View Project](https://ml-credit-risk-predict.streamlit.app/){: .btn target="_blank" rel="noopener noreferrer"} &nbsp; [📁GitHub](https://github.com/shafiimran/ml_credit_risk_predictor){: .btn target="_blank" rel="noopener noreferrer" }
 
 
 ### 🧹 Data Preparation

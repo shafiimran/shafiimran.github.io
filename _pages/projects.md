@@ -13,9 +13,8 @@ author_profile: true
 
 Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**, merging customer, loan, and credit bureau data to predict the probability of loan default — a core problem in retail banking and lending.
 
-<!-- 🔗 [🔗Live Demo](https://ml-credit-risk-predict.streamlit.app/) &nbsp;|&nbsp; 📁 [GitHub Repo](https://github.com/shafiimran/ml_credit_risk_predictor) -->
 
-[🔗View Project](https://ml-credit-risk-predict.streamlit.app/){: .btn} &nbsp; [📁GitHub](https://github.com/shafiimran/ml_credit_risk_predictor){: .btn target="_blank" rel="noopener noreferrer" }
+[🔗View Project](https://ml-credit-risk-predict.streamlit.app/){: .btn target="_blank" rel="noopener noreferrer"} &nbsp; [📁GitHub](https://github.com/shafiimran/ml_credit_risk_predictor){: .btn target="_blank" rel="noopener noreferrer" }
 
 
 ### 🧹 Data Preparation
@@ -30,7 +29,6 @@ Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**
 - Identified loan tenure, delinquent months, total DPD, and credit utilization as the strongest default signals
 - Found that loan amount and income individually showed weak signal — motivating the Loan-to-Income feature engineering
 
----
 
 ### ⚙️ Feature Engineering
 
@@ -40,14 +38,12 @@ Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**
 | Delinquency Ratio | `(delinquent_months × 100) / total_loan_months` |
 | Avg DPD per Delinquency | `total_dpd / delinquent_months` |
 
----
 
 ### 🎯 Feature Selection
 - Applied **VIF analysis** to remove multicollinear features (sanction amount, processing fee, GST, net disbursement, principal outstanding)
 - Used **Information Value (IV > 0.02)** to retain only the most predictive features
 - Applied one-hot encoding with `drop_first=True` before model training
 
----
 
 ### 🤖 Modelling — 4 Attempts
 
@@ -60,7 +56,6 @@ Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**
 
 ✅ **Final Model: Logistic Regression + SMOTETomek + Optuna** — selected for strong recall on defaulters (0.94) and interpretability
 
----
 
 ### 📋 Classification Report
 
@@ -74,7 +69,6 @@ Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**
 
 > The model achieves a **recall of 0.94 on defaulters** — correctly flags 94% of actual defaults, which is the priority metric in credit risk. Selected over XGBoost for interpretability (coefficients as feature importance).
 
----
 
 ### 📈 Model Evaluation — Industry-Standard Credit Risk Metrics
 
@@ -84,7 +78,6 @@ Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**
 | Gini Coefficient | **0.96** | Confirms strong rank ordering capability |
 | KS Statistic | **85.98%** (Decile 8) | Top 3 deciles capture 98.6% of all defaulters |
 
----
 
 ### 🏅 Credit Scorecard & Deployment
 - Mapped default probability to a credit score scaled between **300–900**
@@ -99,7 +92,6 @@ Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**
 
 - Deployed as a **Streamlit web app** — users receive Default Probability, Credit Score, and Risk Rating in real time
 
----
 
 ### 🛠️ Tech Stack
 `Python` `Pandas` `NumPy` `Scikit-learn` `XGBoost` `Imbalanced-learn` `Optuna` `Streamlit` `Joblib`

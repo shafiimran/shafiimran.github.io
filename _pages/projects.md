@@ -13,8 +13,9 @@ author_profile: true
 
 Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**, merging customer, loan, and credit bureau data to predict the probability of loan default — a core problem in retail banking and lending.
 
-🔗 [Live Demo](https://ml-credit-risk-predict.streamlit.app/) &nbsp;|&nbsp; 📁 [GitHub Repo](https://github.com/shafiimran/ml_credit_risk_predictor)
+<!-- 🔗 [🔗Live Demo](https://ml-credit-risk-predict.streamlit.app/) &nbsp;|&nbsp; 📁 [GitHub Repo](https://github.com/shafiimran/ml_credit_risk_predictor) -->
 
+[🔗View Project](https://ml-credit-risk-predict.streamlit.app/){: .btn} &nbsp; [📁GitHub](https://github.com/shafiimran/ml_credit_risk_predictor){: .btn target="_blank" rel="noopener noreferrer" }
 
 
 ### 🧹 Data Preparation
@@ -23,7 +24,6 @@ Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**
 - Removed outliers using domain business rules — processing fee capped at 3%, GST at 20%, net disbursement validated against loan amount
 - Corrected data entry errors in categorical columns (e.g. `Personaal` → `Personal`)
 
----
 
 ### 📊 Exploratory Data Analysis
 - Analyzed all features using KDE plots split by default status
@@ -108,6 +108,7 @@ Built an end-to-end credit risk model on a dataset of **50,000 loan applicants**
 
 
 ## 🛡️Health Insurance Premium Predictor
+
 **Tools:** Python · Scikit-learn · Pandas · Matplotlib · Streamit  &nbsp;|&nbsp; Mar 2025
 
 • Worked on a 50,000-row, 14-feature health insurance dataset to predict annual premium amounts and deploy a live ML web application
